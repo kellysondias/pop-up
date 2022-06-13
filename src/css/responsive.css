@@ -1,0 +1,28 @@
+@media (max-width: 508px) {
+    .popup {
+        width: 90%;
+    }
+
+    .popup header {
+        align-content: center;
+        right: 0;
+        width: 100%;  
+        flex-wrap: wrap; 
+    }
+
+    .popup-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 417px) {
+    .popup-content a {
+        top: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    #btn {
+        width: 95%;
+    }
+}

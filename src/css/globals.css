@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --font: 'VT323', monospace;
+    --background-color: #000;
+    --main-color: #3aff54;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
