@@ -1,6 +1,7 @@
 @media (max-width: 508px) {
     .popup {
-        width: 90%;
+        max-width: 250px;
+        padding: 0;
     }
 
     .popup header {
@@ -13,12 +14,17 @@
     .popup-content {
         text-align: center;
     }
+
+    .popup-content a {
+        top: 89%;
+        margin-left: 5px;
+    }
 }
 
 @media (max-width: 417px) {
-    .popup-content a {
+    /* .popup-content a {
         top: 100%;
-    }
+    } */
 }
 
 @media (max-width: 425px) {
