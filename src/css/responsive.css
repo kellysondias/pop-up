@@ -21,12 +21,6 @@
     }
 }
 
-@media (max-width: 417px) {
-    /* .popup-content a {
-        top: 100%;
-    } */
-}
-
 @media (max-width: 425px) {
     #btn {
         width: 95%;
